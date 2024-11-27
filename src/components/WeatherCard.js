@@ -6,7 +6,7 @@ const WeatherCard = () => {
   const [forecast, setForecast] = useState([]);
   const [error, setError] = useState('');
 
-  const apiKey = 'cb0960c758f5af37fe946871ade06ad9'; 
+  const apiKey = 'cb0960c758f5af37fe946871ade06ad9';
 
   const fetchWeather = async (inputCity = city) => {
     if (!inputCity) {
