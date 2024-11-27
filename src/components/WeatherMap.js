@@ -23,7 +23,7 @@ const WeatherMap = ({ lat, lon }) => {
         {/* Map Section */}
         <MapContainer
           center={[lat, lon]}
-          zoom={15}  // Adjusted zoom for more detailed view
+          zoom={15} 
           style={{ height: '600px', width: '100%' }}
           className="rounded-b-xl"
         >

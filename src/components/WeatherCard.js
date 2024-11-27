@@ -6,9 +6,8 @@ const WeatherCard = () => {
   const [forecast, setForecast] = useState([]);
   const [error, setError] = useState('');
 
-  const apiKey = 'cb0960c758f5af37fe946871ade06ad9'; // Ganti dengan API key OpenWeatherMap Anda
+  const apiKey = 'cb0960c758f5af37fe946871ade06ad9'; 
 
-  // Fungsi untuk mengambil cuaca saat ini
   const fetchWeather = async (inputCity = city) => {
     if (!inputCity) {
       setError('Harap masukkan nama kota');
@@ -29,7 +28,7 @@ const WeatherCard = () => {
 
       if (currentResponse.ok && forecastResponse.ok) {
         setWeather(currentData);
-        setForecast(forecastData.list.slice(0, 5)); // Ambil 5 data pertama (5 jam ke depan)
+        setForecast(forecastData.list.slice(0, 5)); 
         setError('');
       } else {
         setWeather(null);
@@ -41,12 +40,10 @@ const WeatherCard = () => {
     }
   };
 
-  // Ambil cuaca Jakarta secara default saat aplikasi dimuat
   useEffect(() => {
     fetchWeather('Jakarta');
   }, []);
 
-  // Fungsi untuk menentukan kegiatan outdoor
   const decision = () => {
     if (!weather) return '';
 
