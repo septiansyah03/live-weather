@@ -6,7 +6,6 @@ const WeatherMap = ({ lat, lon }) => {
   if (!lat || !lon) {
     return <p>Location coordinates are not available.</p>;
   }
-
   return (
     <div className="flex justify-center items-center mt-6 px-4">
       <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl shadow-lg overflow-hidden border-2 border-gray-300 max-w-4xl w-full transform transition duration-300 hover:scale-105">
