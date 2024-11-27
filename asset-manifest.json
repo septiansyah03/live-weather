@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https//septiansyah03.github.io/live-weather/static/css/main.b933b0b8.css",
-    "main.js": "/https//septiansyah03.github.io/live-weather/static/js/main.23e681cc.js",
-    "static/js/453.6e41d4e9.chunk.js": "/https//septiansyah03.github.io/live-weather/static/js/453.6e41d4e9.chunk.js",
-    "index.html": "/https//septiansyah03.github.io/live-weather/index.html",
-    "main.b933b0b8.css.map": "/https//septiansyah03.github.io/live-weather/static/css/main.b933b0b8.css.map",
-    "main.23e681cc.js.map": "/https//septiansyah03.github.io/live-weather/static/js/main.23e681cc.js.map",
-    "453.6e41d4e9.chunk.js.map": "/https//septiansyah03.github.io/live-weather/static/js/453.6e41d4e9.chunk.js.map"
+    "main.css": "/live-weather/static/css/main.b933b0b8.css",
+    "main.js": "/live-weather/static/js/main.f68dca87.js",
+    "static/js/453.6e41d4e9.chunk.js": "/live-weather/static/js/453.6e41d4e9.chunk.js",
+    "index.html": "/live-weather/index.html",
+    "main.b933b0b8.css.map": "/live-weather/static/css/main.b933b0b8.css.map",
+    "main.f68dca87.js.map": "/live-weather/static/js/main.f68dca87.js.map",
+    "453.6e41d4e9.chunk.js.map": "/live-weather/static/js/453.6e41d4e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b933b0b8.css",
-    "static/js/main.23e681cc.js"
+    "static/js/main.f68dca87.js"
   ]
 }
